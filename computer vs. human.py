@@ -36,6 +36,7 @@ end = str(input('Digite seu endereço aqui: \n')).strip().title()
 print('Hum, legal!! Então, você mora em {}{}{}...'.format(cores['azul'], end, cores['limpa']))
 print('Já eu, vivo aqui sozinho mas eu gosto dessa ''vida'' de lobo solitário u.u\n')
 from random import randint
+#Jogo da adivinhação com números
 
 pc = randint(0, 10)
 print('*' * 65)
@@ -67,7 +68,8 @@ while True:
     elif keep == 'N':
         print(' Saindo do jogo...')
         break
-#Jogo de Jopenpo
+
+ #Jogo de Jopenpo
 
 from random import randint
 from time import sleep
